@@ -22,4 +22,4 @@ steps:
     AzureSpringCloud: 'SpringCloud'
     AppName: 'Application'
     UseStagingDeployment: true
-    Package: '$(System.DefaultWorkingDirectory)//complete/src/main/java/hello//*.jar'
+    Package: '$(System.DefaultWorkingDirectory)/complete/src/main/java/hello/Application.jar'
